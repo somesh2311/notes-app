@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fee8fd"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEditNoteActivity">
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/tIT"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/montserrat"
+        android:gravity="start|top"
+        android:hint="@string/description"
+        android:minHeight="200dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:focusable="false"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/date"
+        android:maxLines="1"
+        android:padding="12dp" />
+</LinearLayout>
